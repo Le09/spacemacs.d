@@ -144,6 +144,8 @@ This function should only modify configuration layer settings."
 
      ;; Spacemacs Org mode
      (org :variables
+          org-enable-roam-ui t
+          org-enable-transclusion-support t
           org-enable-github-support t
           org-enable-bootstrap-support t
           ;; org-enable-reveal-js-support t
