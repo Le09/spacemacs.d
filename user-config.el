@@ -24,3 +24,8 @@
 ;; https://github.com/syl20bnr/spacemacs/issues/16276
 (remove-hook 'helm-mode-hook 'helm-descbinds-mode)
 ;; ---------------------------------------
+;; line wrapping
+;; https://emacs.stackexchange.com/questions/3747/how-to-disable-line-wrapping-in-spacemacs/3756#3756
+(spacemacs/toggle-truncate-lines-off)
+;; Visual line navigation for textual modes
+(add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)
