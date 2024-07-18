@@ -41,6 +41,8 @@ This function should only modify configuration layer settings."
      ;;
      ;; Layers added in alphabetic order
 
+     (tabs :variables tabs-selected-tab-bar 'under)
+
      ;; Add tool tips to show doc string of functions
      ;; Show snippets in the auto-completion popup
      ;; Show suggestions by most commonly used
